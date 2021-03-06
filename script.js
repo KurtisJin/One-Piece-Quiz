@@ -161,7 +161,7 @@ function clearStatusClass(element) {
 const questions = [
     {
       question: 'What is the first ship Luffy has accuired?',
-      imgSrc: "..assets/pictures/sunnyGoMary.gif",
+      imgSrc: "Assets/pictures/sunnyGoMary.gif",
       answers: [
         { text: 'Sunny Go Mary', correct: true },
         { text: 'Victory Hunter', correct: false },
@@ -171,7 +171,7 @@ const questions = [
     },
     {
       question: 'What is the town where Luffy is from?',
-      imgSrc: "/assets/pictures/LuffysHome.gif",
+      imgSrc: "Assets/pictures/LuffysHome.gif",
       answers: [
         { text: 'Shells Town', correct: false },
         { text: 'Shimotsuki Village', correct: false },
@@ -181,7 +181,7 @@ const questions = [
     },
     {
       question: `Pick the one that is NOT Luffy's Gear 4?`,
-      imgSrc: "assets/pictures/gear4.gif",
+      imgSrc: "Assets/pictures/gear4.gif",
       answers: [
         { text: 'Snakeman', correct: false },
         { text: 'Baloon', correct: true },
