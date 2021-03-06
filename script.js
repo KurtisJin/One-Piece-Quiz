@@ -171,7 +171,7 @@ const questions = [
     },
     {
       question: 'What is the town where Luffy is from?',
-      imgSrc: "assets/pictures/LuffysHome.gif",
+      imgSrc: "/assets/pictures/LuffysHome.gif",
       answers: [
         { text: 'Shells Town', correct: false },
         { text: 'Shimotsuki Village', correct: false },
