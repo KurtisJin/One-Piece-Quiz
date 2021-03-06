@@ -161,7 +161,7 @@ function clearStatusClass(element) {
 const questions = [
     {
       question: 'What is the first ship Luffy has accuired?',
-      imgSrc: "assets/pictures/sunnyGoMary.gif",
+      imgSrc: "..assets/pictures/sunnyGoMary.gif",
       answers: [
         { text: 'Sunny Go Mary', correct: true },
         { text: 'Victory Hunter', correct: false },
