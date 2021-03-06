@@ -1,0 +1,45 @@
+  
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="style.css" rel="stylesheet">
+  <title>Quiz App</title>
+</head>
+<body>
+  <div class="container">
+    <!--intro area-->
+    <div id="intro-container" class="intro intro-container">
+        <h2 class="header">Welcome to One Piece Quiz!</h2>
+        <p class="introP">If your question is correct, the background color will turn green. If wrong, the back ground color will turn red! good luck!</p>
+    </div> 
+    <!--div made for where questions will be placed-->  
+    <div id="question-container" class="hide">
+      <!--where timer will sit. used Span for the timer-->
+      <div id="timer" class="timer timer-counter">Time left:<span>30</span></div> 
+      <div id="question" class="question">Question</div>
+      <div id="images" class="images images-container"></div>
+      <div id="answer-buttons" class="btn-grid">
+        <!--where the answers will reside within the four buttons-->
+        <button class="btn">Answer 1</button>
+        <button class="btn">Answer 2</button>
+        <button class="btn">Answer 3</button>
+        <button class="btn">Answer 4</button>
+      </div>
+    </div>
+    <div id="results results-page" class="results results-page">
+        <h2 class="your-results"></h2>
+        <div id="right right-answer" class="right right-answer"></div>
+        <div id="wrong wrong-answers" class="wrong wrong-answers"></div>
+    </div>
+    <div class="controls">
+      <button id="start-btn" class="start-btn btn">Start</button>
+      <button id="next-btn" class="next-btn btn hide">Next</button>
+      <button id="results-btn" class="results results-btn btn hide">Results</button>
+    </div>
+  </div>
+</body>
+<script src="script.js"></script>
+</html>
